@@ -1,0 +1,21 @@
+body {
+    background-color: #ecf0f1;
+}
+
+.card-header h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#contentWrap {
+    display: none;
+}
+
+.error {
+    color: red;
+}
+
+.whisper {
+    color: gray;
+    font-style: italic;
+}
