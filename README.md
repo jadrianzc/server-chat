@@ -1,15 +1,15 @@
 # Javascript Full Stack
-is a simple chat that was built with entire javascript technologies, for the frontend, backend and database. 
+Es un chat simple que fue construido con tecnologías javascript, para el frontend, backend y base de datos.
 
 ![](docs/chat-javascript-fullstack.jpg)
 
-# Used Technologies
+# Tecnologías usadas
 - Nodejs
   - Express
   - Socket.io
 - Mongodb
 
-# Links and Resources used in this project
+# Enlaces y recursos utilizados en este proyecto
 - [Bootstrap4 CDN](http://getbootstrap.com/docs/4.0/getting-started/introduction/)
 - [Background Gradient Color](https://uigradients.com/#Lawrencium)
 - [jQuery CDN](https://code.jquery.com/)
