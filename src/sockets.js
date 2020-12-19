@@ -21,7 +21,7 @@ module.exports = io => {
             }
         });
 
-        // receive a message a broadcasting
+        // Recibir un mensaje
         socket.on('send message', async(data, cb) => {
             let msg = data.trim();
 
