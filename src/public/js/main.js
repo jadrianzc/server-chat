@@ -13,7 +13,7 @@ $(function() {
     const $nickError = $('#nickError');
     const $nickname = $('#nickname');
 
-    // obtaining the usernames container DOM
+    // Obteniedno los usuarios del DOM
     const $users = $('#usernames');
 
     $nickForm.submit(e => {

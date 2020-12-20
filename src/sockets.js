@@ -4,12 +4,14 @@ module.exports = io => {
 
     let users = {};
 
+    // Inicia la conexión con socket
     io.on('connection', async socket => {
 
         let messages = await Chat.find({}).limit(8).sort('-created');
 
         socket.emit('load old msgs', messages);
 
+        // Recibe el usuario
         socket.on('new user', (data, cb) => {
             if (data in users) {
                 cb(false);
@@ -56,6 +58,7 @@ module.exports = io => {
             }
         });
 
+        // Verifica un usuario desconectado
         socket.on('disconnect', data => {
             if (!socket.nickname) return;
             delete users[socket.nickname];
